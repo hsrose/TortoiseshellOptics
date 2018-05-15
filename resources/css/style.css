@@ -24,15 +24,20 @@ a {
 .main {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  height: 32rem;
+  border: 1px dotted white; /*for working only */
 
 }
 
 .sitecontainer {
   width: 960px;
-  margin: auto 0;
+  /* margin: auto 0; */
   display: flex;
-  justify-content: column;
+  justify-content: flex-start;
   border: 1px dotted white; /* for working only */
 }
 
